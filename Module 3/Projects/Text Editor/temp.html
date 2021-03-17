@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .makeBold{
+            font-weight: bold;
+        }
+
+        .makeItalik{
+            font-style: italic;
+        }
+
+        .makeUnderlined{
+            font-weight: bold;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button id="bold" onclick="makeBold()"> Bold  </button>
+    <button id="italik" onclick="makeItalik()"> Italik  </button>
+    <div id="demo"> This is some text </div>
+    <script>
+
+        function makeBold(){
+            // alert("too");
+            document.getElementById("demo").classList.toggle("makeBold");
+        }
+
+        function makeItalik(){
+            // alert("too");
+            document.getElementById("demo").classList.add('makeItalik');
+        }
+        function makeUnderlined(){
+            // alert("too");
+            document.getElementById("demo").classList.add('makeUnderlined');
+        }
+
+
+    </script>
+</body>
+</html>

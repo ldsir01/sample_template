@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="my_btn" onclick="try_me_button">TRY ME</button>
+    <p id="second">00</div>
+    <p id="mini_second">00</div>
+    <div></div>
+    
+    
+
+    <script>
+        // alert("yo");
+      document.getElementById("my_btn").addEventListener("click",click_here_function);
+        function click_here_function()
+        {
+            setInterval(alert__function,1000);
+        }
+      function alert__function() 
+      {
+            var num = document.getElementById("second").textContent;
+            num++;
+            document.getElementById("second").textContent = num;
+      }
+
+      document.getElementById("my_btn").addEventListener("click",click_here_function1);
+        function click_here_function1()
+        {
+            setInterval(alert__function1,10);
+        }
+      function alert__function1() 
+      {
+            var num1 = document.getElementById("mini_second").textContent;
+            if(num1<100)
+            {
+                num1++;
+                document.getElementById("mini_second").textContent = num1;
+            }
+            else if(num1 == 100)
+            {
+                num1++;
+                document.getElementById("mini_second").textContent = num1;
+            }
+      }
+
+
+
+    // let num = document.getElementById("number").textContent;
+    // console.log(num);
+    </script>
+  </body>
+</html>

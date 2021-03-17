@@ -1,0 +1,47 @@
+/* .{
+    font-color: white;
+    color: aliceblue;
+} */
+
+body{
+    background-color: #f5a641;
+}
+
+#title1{
+    text-align: center;
+    color: aliceblue;
+}
+
+#S__WATCH{
+    text-align: center;
+    color: aliceblue;
+}
+
+#text{
+    /* padding-top: 270px; */
+    margin-top:200px;
+    font-size: 60px;
+    color: aliceblue;
+}
+
+#buttons{
+    margin-left: 500px;
+    align-items: center;
+    color: aliceblue;
+
+    
+}
+
+#button1{
+    padding: 15px 32px ;
+    /* padding-left: 400px; */
+    margin-left: 45px;
+    margin-right: 45px;
+}
+#button2{
+    padding: 15px 32px;
+    margin-right: 45px;
+}
+#button3{
+    padding: 15px 32px;
+}
